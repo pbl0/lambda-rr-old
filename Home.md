@@ -1,1 +1,1 @@
-Welcome to the lambda-rr-bak wiki!
+Copia de https://es.lambda-rr.es/
