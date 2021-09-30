@@ -3,3 +3,42 @@ Copia de https://es.lambda-rr.es/
 ¡Bienvenido a LambdaWeb!
 
 LambdaWeb es la exportación a formato web de un servidor de Discord donde gente con experiencia en el juego está volcando todo su conocimiento para que los nuevos jugadores tengan menos problemas a la hora de entender el juego.
+
+* Perfil
+    * [Experiencia y Nivel](https://github.com/pbl0/lambda-rr/wiki/Experiencia-y-Nivel)
+    * [Habilidades](https://github.com/pbl0/lambda-rr/wiki/Habilidades)
+    * [Academia Militar](https://github.com/pbl0/lambda-rr/wiki/Academia-Militar)
+    * [Casa](https://github.com/pbl0/lambda-rr/wiki/Casa)
+    * [Roles](https://github.com/pbl0/lambda-rr/wiki/Roles)
+    * [Multicuentas](https://github.com/pbl0/lambda-rr/wiki/Multicuentas)
+    * [Fin del día](https://github.com/pbl0/lambda-rr/wiki/Fin-del-D%C3%ADa)
+* Economía
+    * [Trabajar](https://github.com/pbl0/lambda-rr/wiki/Trabajar)
+    * [Experiencia Laboral](https://github.com/pbl0/lambda-rr/wiki/Experiencia-Laboral)
+    * [Recursos](https://github.com/pbl0/lambda-rr/wiki/Recursos)
+    * [Subastas de Fábricas](https://github.com/pbl0/lambda-rr/wiki/Subastas-de-F%C3%A1bricas)
+    * [Exploración Profunda](https://github.com/pbl0/lambda-rr/wiki/Exploraci%C3%B3n-Profunda)
+    * [Contaminación](https://github.com/pbl0/lambda-rr/wiki/Contaminaci%C3%B3n)
+    * [Coste de Fronteras](https://github.com/pbl0/lambda-rr/wiki/Coste-de-Fronteras)
+    * [Departamentos](https://github.com/pbl0/lambda-rr/wiki/Departamentos)
+    * [Comerciar](https://github.com/pbl0/lambda-rr/wiki/Comerciar)
+    * [Mercado Estatal](https://github.com/pbl0/lambda-rr/wiki/Mercado-Estatal)
+* Política
+    * [Elecciones](https://github.com/pbl0/lambda-rr/wiki/Elecciones)
+    * [Autonomías](https://github.com/pbl0/lambda-rr/wiki/Autonom%C3%ADas)
+    * [Leyes](https://github.com/pbl0/lambda-rr/wiki/Leyes)
+    * [Bloque](https://github.com/pbl0/lambda-rr/wiki/Bloque)
+    * [Formas de Gobierno](https://github.com/pbl0/lambda-rr/wiki/Formas-de-gobierno)
+    * [Votación en el Parlamento](https://github.com/pbl0/lambda-rr/wiki/Votaci%C3%B3n-en-el-Parlamento)
+    * [Votar](https://github.com/pbl0/lambda-rr/wiki/Votar)
+    * [Independencia](https://github.com/pbl0/lambda-rr/wiki/Independencia)
+* Guerras
+    * [Entrenamiento Militar](https://github.com/pbl0/lambda-rr/wiki/Entrenamiento-Militar)
+    * [Guerras](https://github.com/pbl0/lambda-rr/wiki/Guerras)
+    * [Tropas](https://github.com/pbl0/lambda-rr/wiki/Tropas)
+* Pro
+    * [Índices](https://github.com/pbl0/lambda-rr/wiki/Indices)
+    * [Premium Gratis](https://github.com/pbl0/lambda-rr/wiki/Premium-gratis)
+    * [Tablas del Juego](https://github.com/pbl0/lambda-rr/wiki/Tablas-del-juego)
+    * [Calculadoras](https://github.com/pbl0/lambda-rr/wiki/Calculadoras)
+    * [Fórmulas](https://github.com/pbl0/lambda-rr/wiki/F%C3%B3rmulas)
