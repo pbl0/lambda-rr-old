@@ -1,3 +1,8 @@
+---
+layout: default
+title: Votar
+rank: 3
+---
 # Votar
 
 Una vez cada 5 días tiene lugar una votación para elegir al líder de la nación (presidenciales) y otra para asignar los escaños del Parlamento (parlamentarias).
