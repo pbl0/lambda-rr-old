@@ -6,6 +6,7 @@
     * [Roles](https://github.com/pbl0/lambda-rr/wiki/Roles)
     * [Multicuentas](https://github.com/pbl0/lambda-rr/wiki/Multicuentas)
     * [Fin del día](https://github.com/pbl0/lambda-rr/wiki/Fin-del-D%C3%ADa)
+    * [Misiones](https://github.com/pbl0/lambda-rr/wiki/Misiones)
 * Economía
     * [Trabajar](https://github.com/pbl0/lambda-rr/wiki/Trabajar)
     * [Experiencia Laboral](https://github.com/pbl0/lambda-rr/wiki/Experiencia-Laboral)
@@ -21,6 +22,7 @@
     * [Elecciones](https://github.com/pbl0/lambda-rr/wiki/Elecciones)
     * [Autonomías](https://github.com/pbl0/lambda-rr/wiki/Autonom%C3%ADas)
     * [Leyes](https://github.com/pbl0/lambda-rr/wiki/Leyes)
+    * [Residencias y Permisos de Trabajo](https://github.com/pbl0/lambda-rr/wiki/Residencias-y-Permisos-de-Trabajo)
     * [Bloque](https://github.com/pbl0/lambda-rr/wiki/Bloque)
     * [Formas de Gobierno](https://github.com/pbl0/lambda-rr/wiki/Formas-de-gobierno)
     * [Votación en el Parlamento](https://github.com/pbl0/lambda-rr/wiki/Votaci%C3%B3n-en-el-Parlamento)
@@ -36,3 +38,7 @@
     * [Tablas del Juego](https://github.com/pbl0/lambda-rr/wiki/Tablas-del-juego)
     * [Calculadoras](https://github.com/pbl0/lambda-rr/wiki/Calculadoras)
     * [Fórmulas](https://github.com/pbl0/lambda-rr/wiki/F%C3%B3rmulas)
+* Artículos
+    * [Guía Articulos](https://m.rivalregions.com/#news/show/843759)
+    * [Karma](https://github.com/pbl0/lambda-rr/wiki/Karma)
+
