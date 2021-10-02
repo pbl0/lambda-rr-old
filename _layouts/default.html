@@ -22,15 +22,82 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        
+
+        <!-- Create Arrays -->
+        {% assign economia_array = "" | split: ',' %}
+        {% assign perfil_array = "" | split: ',' %}
+        {% assign politica_array = "" | split: ',' %}
+        {% assign guerras_array = "" | split: ',' %}
+        {% assign pro_array = "" | split: ',' %}
+
+
         {% assign sorted = site.html_pages | sort:"rank" %}
         {% for item in sorted %}
           {% if item.path != "index.md" and item.title and item.rank %}
-            <li>
-              <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs','' }}">{{ item.title }}</a>
-              <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
-            </li>
+            {% if item.category == "economia" %}
+              <!-- Push item -->
+              {% assign economia_array = economia_array | push: item %}
+            {% elsif item.category == "perfil" %}
+              <!-- Push item -->
+              {% assign perfil_array = perfil_array | push: item %}
+            {% elsif item.category == "politica" %}
+              <!-- Push item -->
+              {% assign politica_array = politica_array | push: item %}
+            {% elsif item.category == "guerras" %}
+              <!-- Push item -->
+              {% assign guerras_array = guerras_array | push: item %}
+            {% elsif item.category == "pro" %}
+              <!-- Push item -->
+              {% assign pro_array = pro_array | push: item %}
+            {% endif %}
           {% endif %}
         {% endfor %}
+
+        <ul>
+          <li> Perfil
+            <ul>
+              {% for item in perfil_array %}
+                <li>
+                  <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li> Economia
+            <ul>
+              {% for item in economia_array %}
+              <li>
+                <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+              </li>
+            </ul>
+          </li>
+          <li> Politica
+            <ul>
+              {% for item in politica_array %}
+              <li>
+                <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+              </li>
+            </ul>
+          </li>
+          <li> Guerras
+            <ul>
+              {% for item in guerras_array %}
+              <li>
+                <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+              </li>
+            </ul>
+          </li>
+          <li> Pro
+            <ul>
+              {% for item in pro_array %}
+              <li>
+                <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
       </header>
       <section>
 
