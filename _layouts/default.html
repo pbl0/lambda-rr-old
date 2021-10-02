@@ -55,7 +55,7 @@
         {% endfor %}
 
         <ul>
-          <li><a href="/">Home</a></li>
+          <li><a href="{{ "/" | absolute_url }}">Home</a></li>
           <li> Perfil
             <ul>
               {% for item in perfil_array %}
