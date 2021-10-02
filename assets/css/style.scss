@@ -2,6 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+body{
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 h1,h2,h3,h4,h5{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Fira sans', Arial, Helvetica, sans-serif;
 }
