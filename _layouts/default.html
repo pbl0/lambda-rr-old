@@ -50,6 +50,9 @@
             {% elsif item.category == "pro" %}
               <!-- Push item -->
               {% assign pro_array = pro_array | push: item %}
+            {% elsif item.category == "historia" %}
+              <!-- Push item -->
+              {% assign historia_array = historia_array | push: item %}
             {% endif %}
           {% endif %}
         {% endfor %}
@@ -95,6 +98,15 @@
           <li> Pro
             <ul>
               {% for item in pro_array %}
+              <li>
+                <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li> Historia
+            <ul>
+              {% for item in historia_array %}
               <li>
                 <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
               </li>
