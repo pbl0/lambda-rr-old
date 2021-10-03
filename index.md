@@ -30,4 +30,4 @@ Tareas pendiente:
 - [ ] Añadir contenido del discord.
 - [ ] Añadir sección de historia.
 - [ ] Mejorar diseño
-- [ ] añadir barra de busqueda.
+- [x] añadir barra de busqueda.
