@@ -68,7 +68,7 @@
             <div class="dropdown-content">
               {% for item in perfil_array %}
                 <div>
-                  <a href="/{{ item.baseurl | append: item.path | replace:'.md','.html' | replace 'docs/',''}}">{{ item.title }}</a>
+                  <a href="/{{ site.baseurl | append: item.path | replace:'.md','.html' }}">{{ item.title }}</a>
                 </div>
               {% endfor %}
             </div>
@@ -79,7 +79,7 @@
             <div  class="dropdown-content">
               {% for item in economia_array %}
               <div>
-                <a href="/{{ item.baseurl | append: item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+                <a href="/{{ site.baseurl | append: item.path | replace:'.md','.html' }}">{{ item.title }}</a>
               </div>
               {% endfor %}
             </div>
@@ -90,7 +90,7 @@
             <div  class="dropdown-content">
               {% for item in politica_array %}
               <div>
-                <a href="/{{ item.baseurl | append: item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+                <a href="/{{ site.baseurl | append: item.path | replace:'.md','.html' }}">{{ item.title }}</a>
               </div>
               {% endfor %}
             </div>
@@ -101,7 +101,7 @@
             <div  class="dropdown-content">
               {% for item in guerras_array %}
               <div>
-                <a href="/{{ item.baseurl | append: item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+                <a href="/{{ site.baseurl | append: item.path | replace:'.md','.html' }}">{{ item.title }}</a>
               </div>
               {% endfor %}
             </div>
@@ -112,7 +112,7 @@
             <div  class="dropdown-content">
               {% for item in pro_array %}
               <div>
-                <a href="/{{ item.baseurl | append: item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+                <a href="/{{ site.baseurl | append: item.path | replace:'.md','.html' }}">{{ item.title }}</a>
               </div>
               {% endfor %}
             </div>
@@ -123,7 +123,7 @@
               <div  class="dropdown-content">
                 {% for item in historia_array %}
                 <div>
-                  <a href="/{{ item.baseurl | append: item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+                  <a href="/{{ site.baseurl | append: item.path | replace:'.md','.html' }}">{{ item.title }}</a>
                 </div>
                 {% endfor %}
               </div>
