@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png" />
 {% seo %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,15 +18,17 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1>
+          <a href="{{ "/" | absolute_url }}">
+            {{ site.title | default: site.github.repository_name }}
+          </a>
+        </h1>
 
         {% if site.logo %}
           <img width="50" src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        
+        <p>{{ site.description | default: site.github.project_tagline }}</p>   
 
         <!-- Create Arrays -->
         {% assign economia_array = "" | split: ',' %}
@@ -34,7 +36,6 @@
         {% assign politica_array = "" | split: ',' %}
         {% assign guerras_array = "" | split: ',' %}
         {% assign pro_array = "" | split: ',' %}
-
 
         {% assign sorted = site.html_pages | sort:"rank" %}
         {% for item in sorted %}
@@ -82,9 +83,7 @@
               </div>
               {% endfor %}
             </div>
-          </div>
-
-          
+          </div>       
 
           <div class="dropdown">
             <div class="dropbtn"> Politica </div>
@@ -96,9 +95,6 @@
               {% endfor %}
             </div>
           </div>
-          
-
-          
 
           <div class="dropdown">
             <div class="dropbtn"> Guerras </div>
@@ -109,9 +105,7 @@
               </div>
               {% endfor %}
             </div>
-          </div>
-
-          
+          </div>       
 
           <div class="dropdown">
             <div class="dropbtn"> Pro </div>
@@ -122,9 +116,7 @@
               </div>
               {% endfor %}
             </div>
-          </div>
-
-          
+          </div>       
 
           <div class="dropdown">
             <div class="dropbtn"> Historia </div>
@@ -138,9 +130,8 @@
             
           </div>
 
-
         </div>
-              <!-- HTML elements for search -->
+      <!-- HTML elements for search -->
       <input type="text" id="search-input" placeholder="Buscar...">
       <ul id="results-container"></ul> 
       </header>
