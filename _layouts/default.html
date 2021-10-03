@@ -60,63 +60,85 @@
           {% endif %}
         {% endfor %}
 
-        <ul class="sidebar">
-          <li><a href="{{ "/" | absolute_url }}">Home</a></li>
-          <li> Perfil
-            <ul>
+        <div class="sidebar">
+          <div class="dropdown">
+            <button class="dropbtn"> Perfil </button>
+            <div class="dropdown-content">
               {% for item in perfil_array %}
-                <li>
+                <div>
                   <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
-                </li>
+                </div>
               {% endfor %}
-            </ul>
-          </li>
-          <li> Economia
-            <ul>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn"> Economia </button>
+            <div  class="dropdown-content">
               {% for item in economia_array %}
-              <li>
+              <div>
                 <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
-              </li>
+              </div>
               {% endfor %}
-            </ul>
-          </li>
-          <li> Politica
-            <ul>
+            </div>
+          </div>
+
+          
+
+          <div class="dropdown">
+            <button class="dropbtn"> Politica </button>
+            <div  class="dropdown-content">
               {% for item in politica_array %}
-              <li>
+              <div>
                 <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
-              </li>
+              </div>
               {% endfor %}
-            </ul>
-          </li>
-          <li> Guerras
-            <ul>
+            </div>
+          </div>
+          
+
+          
+
+          <div class="dropdown">
+            <button class="dropbtn"> Guerras </button>
+            <div  class="dropdown-content">
               {% for item in guerras_array %}
-              <li>
+              <div>
                 <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
-              </li>
+              </div>
               {% endfor %}
-            </ul>
-          </li>
-          <li> Pro
-            <ul>
+            </div>
+          </div>
+
+          
+
+          <div class="dropdown">
+            <button class="dropbtn"> Pro </button>
+            <div  class="dropdown-content">
               {% for item in pro_array %}
-              <li>
+              <div>
                 <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
-              </li>
+              </div>
               {% endfor %}
-            </ul>
-          </li>
-          <li> Historia
-            <ul>
-              {% for item in historia_array %}
-              <li>
-                <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-          </li>
-        </ul>
+            </div>
+          </div>
+
+          
+
+          <div class="dropdown">
+            <button class="dropbtn"> Historia </button>
+              <div  class="dropdown-content">
+                {% for item in historia_array %}
+                <div>
+                  <a href="/lambda-rr/{{ item.path | replace:'.md','.html' | replace 'docs/','' }}">{{ item.title }}</a>
+                </div>
+                {% endfor %}
+              </div>
+            
+          </div>
+
+
+        </div>
 
       </header>
       <section>
