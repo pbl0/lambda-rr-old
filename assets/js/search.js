@@ -7,7 +7,9 @@
     const input = document.getElementById('search-input');
     const resultsContainer = document.getElementById('results-container');
     const pages = {{ site.html_pages | jsonify }};
+    const site = {{ site | jsonify}}
     console.log('pages',pages);
+    console.log('site', site)
     input.addEventListener("keyup", function(value){
         if (input.value == ''){
             borrarTodos();
