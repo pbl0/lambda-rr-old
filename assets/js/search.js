@@ -2,20 +2,23 @@
 ---
 
 !(function () {
-    // code here
     const PREFIX = '/lambda-rr'
     const input = document.getElementById('search-input');
     const resultsContainer = document.getElementById('results-container');
     const pages = {{ site.html_pages | jsonify }};
-    const site = {{ site | jsonify}}
-    console.log('pages',pages);
-    console.log('site', site)
-    input.addEventListener("keyup", function(value){
+    // const site = {{ site | jsonify}}
+    // console.log('pages',pages);
+    // console.log('site', site)
+    input.addEventListener("keyup", function(){
         if (input.value == ''){
             borrarTodos();
         } else {
             borrarNoCoincide(input.value)
-            let result = pages.filter(item => item.title.toUpperCase().includes(input.value.toUpperCase()));
+            let result = pages.filter(item => {
+                if (item.title){
+                    return item.title.toUpperCase().includes(input.value.toUpperCase())
+                }
+            });
     
             result.forEach(element => {
     
