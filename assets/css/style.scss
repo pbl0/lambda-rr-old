@@ -25,9 +25,10 @@ h1,h2,h3,h4,h5,.dropbtn,.dropdown-content{
   
   .dropdown-content a {
     color: black;
-    padding: 1em;
+    padding: 0.4em;
     text-decoration: none;
     display: block;
+    border-bottom:solid gainsboro 1px;
     
   }
   

@@ -15,14 +15,19 @@ El proyecto original fue creado por Alexia/Yuuuh/Elsa, antiguo jugador de RR que
 
 La nueva página no tiene animos de lucro, ni tendrá anuncios y tampoco tiene costes de hosteo o dominios.
 
+# ¿Eres nuevo en RR?
+Empieza por [primeros pasos](./docs/Primeros-Pasos).
+
 ## Colaborar
 
 Si quieres colaborar con el proyecto puedes contribuir de varias maneras. Algunas de las cuales las tengo apuntadas aqui debajo. 
 
-Puedes facilmente editar cualquier articulo desde la [wiki](https://github.com/pbl0/lambda-rr/wiki) en github. Se recomienda leer esta [guía de markdown](https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). 
+Puedes editar cualquier articulo desde la [wiki](https://github.com/pbl0/lambda-rr/wiki) en github. Se recomienda leer esta [guía de markdown](https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). 
 
 Tareas pendiente:
-- [ ] Añadir titulos a las páginas.
+- [x] Añadir cabecera a las páginas.
+- [x] Añadir barra de busqueda.
+- [ ] Corregir tablas rotas
 - [ ] Sacar nuevas capturas de pantalla.
 - [ ] Actualizar incorrecciones.
     - [ ] Guia Casa.
@@ -30,4 +35,5 @@ Tareas pendiente:
 - [ ] Añadir contenido del discord.
 - [ ] Añadir sección de historia.
 - [ ] Mejorar diseño
-- [x] añadir barra de busqueda.
+
+

@@ -2,13 +2,14 @@
 ---
 
 !(function () {
-    const PREFIX = '/lambda-rr'
+    
     const input = document.getElementById('search-input');
     const resultsContainer = document.getElementById('results-container');
     const pages = {{ site.html_pages | jsonify }};
-    // const site = {{ site | jsonify}}
+    const site = {{ site | jsonify}}
     // console.log('pages',pages);
     // console.log('site', site)
+    const PREFIX = site.baseurl == null ? '': site.baseurl
     input.addEventListener("keyup", function(){
         if (input.value == ''){
             borrarTodos();

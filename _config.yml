@@ -3,3 +3,6 @@ logo: /assets/img/logo.png
 favicon: /assets/img/favicon.png
 title: Lambda
 search: /assets/js/search.js
+relative_links:
+  enabled: true
+  collections: true
