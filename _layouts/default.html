@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Ubuntu&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    
   </head>
   <body>
     <div class="wrapper">
@@ -62,7 +63,7 @@
 
         <div class="sidebar">
           <div class="dropdown">
-            <button class="dropbtn"> Perfil </button>
+            <div class="dropbtn"> Perfil </div>
             <div class="dropdown-content">
               {% for item in perfil_array %}
                 <div>
@@ -73,7 +74,7 @@
           </div>
 
           <div class="dropdown">
-            <button class="dropbtn"> Economia </button>
+            <div class="dropbtn"> Economia </div>
             <div  class="dropdown-content">
               {% for item in economia_array %}
               <div>
@@ -86,7 +87,7 @@
           
 
           <div class="dropdown">
-            <button class="dropbtn"> Politica </button>
+            <div class="dropbtn"> Politica </div>
             <div  class="dropdown-content">
               {% for item in politica_array %}
               <div>
@@ -100,7 +101,7 @@
           
 
           <div class="dropdown">
-            <button class="dropbtn"> Guerras </button>
+            <div class="dropbtn"> Guerras </div>
             <div  class="dropdown-content">
               {% for item in guerras_array %}
               <div>
@@ -113,7 +114,7 @@
           
 
           <div class="dropdown">
-            <button class="dropbtn"> Pro </button>
+            <div class="dropbtn"> Pro </div>
             <div  class="dropdown-content">
               {% for item in pro_array %}
               <div>
@@ -126,7 +127,7 @@
           
 
           <div class="dropdown">
-            <button class="dropbtn"> Historia </button>
+            <div class="dropbtn"> Historia </div>
               <div  class="dropdown-content">
                 {% for item in historia_array %}
                 <div>
@@ -139,9 +140,12 @@
 
 
         </div>
-
+              <!-- HTML elements for search -->
+      <input type="text" id="search-input" placeholder="Buscar...">
+      <ul id="results-container"></ul> 
       </header>
       <section>
+
 
       {{ content }}
 
@@ -163,5 +167,6 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+    <script src="/assets/js/search.js"></script>
   </body>
 </html>

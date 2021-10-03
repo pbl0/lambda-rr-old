@@ -11,8 +11,7 @@ h1,h2,h3,h4,h5,.dropbtn,.dropdown-content{
 .dropbtn {
     padding: 1em;
     border: none;
-    cursor: pointer;
-    min-width: 20em;
+    border-bottom:solid gainsboro 1px;
   }
   
   .dropdown-content {
@@ -40,4 +39,9 @@ h1,h2,h3,h4,h5,.dropbtn,.dropdown-content{
   
   .dropdown:hover .dropbtn {
     background-color: #267CB9;
+    color: white;
+}
+
+.search-element{
+  display: block;
 }
