@@ -1,6 +1,5 @@
 _site/
 .jekyll-cache/
-Gemfile
 Gemfile.lock
 jekyll-theme-minimal.gemspec
 LICENSE
