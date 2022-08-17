@@ -35,5 +35,3 @@ Tareas pendiente:
 - [ ] Añadir contenido del discord.
 - [ ] Añadir sección de historia.
 - [ ] Mejorar diseño
-
-
