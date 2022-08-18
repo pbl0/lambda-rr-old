@@ -33,5 +33,5 @@ Tareas pendiente:
     - [ ] Guia Casa.
 - [ ] Borrar articulos innecesarios o redundantes.
 - [ ] Añadir contenido del discord.
-- [ ] Añadir sección de historia.
+- [x] Añadir sección de historia.
 - [ ] Mejorar diseño
