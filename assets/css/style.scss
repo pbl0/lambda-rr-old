@@ -4,6 +4,8 @@
 :root {
     --text-white: #D3CFC9;
     --other-white: #E8E6E3;
+    --blue: #267CB9;
+    --black: #181A1B;
   }
 
 @import '{{ site.theme }}';
@@ -60,7 +62,7 @@ h5{
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #267cb9;
+    background-color: var(--blue);
     color: white;
 }
 
@@ -74,11 +76,11 @@ section > *:not(h1,h2,h3,h4,h5){
 
 body{
     color: var(--text-white);
-    background-color: #181A1B;
+    background-color: var(--black);
 }
 
 a{
-    color: #267CB9
+    color: var(--blue)
 }
 
 strong{
@@ -86,7 +88,7 @@ strong{
 }
 
 input{
-    background-color: #181a1b;
+    background-color: var(--black);
     color: var(--other-white);
     border-color: #736b5e;
 }
