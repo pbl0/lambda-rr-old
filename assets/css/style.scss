@@ -1,6 +1,11 @@
 ---
 ---
 
+:root {
+    --text-white: #D3CFC9;
+    --other-white: #E8E6E3;
+  }
+
 @import '{{ site.theme }}';
 body {
     font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
@@ -14,11 +19,12 @@ h5,
 .dropbtn,
 .dropdown-content {
     font-family: 'Fira sans', Arial, Helvetica, sans-serif;
+    color: #222;
 }
 .dropbtn {
     padding: 1em;
     border: none;
-    border-bottom: solid gainsboro 1px;
+    border-bottom: solid #3A3F41 1px;
 }
 
 .dropdown-content {
@@ -31,7 +37,7 @@ h5,
 }
 
 .dropdown-content a {
-    color: #E8E6E3;
+    color: var(--other-white);
     padding: 0.4em;
     text-decoration: none;
     display: block;
@@ -60,10 +66,20 @@ section > *:not(h1,h2,h3,h4,h5){
 }
 
 body{
-    color: #D3CFC9;
+    color: var(--text-white);
     background-color: #181A1B;
 }
 
 a{
     color: #267CB9
+}
+
+strong{
+    color: var(--text-white);
+}
+
+input{
+    background-color: #181a1b;
+    color: var(--other-white);
+    border-color: #736b5e;
 }
